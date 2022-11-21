@@ -4,7 +4,7 @@
 	let open = false
 
     // Light/Dark mode
-    import { ThemeMode } from './store';
+    import { ThemeMode } from '../store.js';
     $: document.body.className = $ThemeMode;
 
     // Icone
