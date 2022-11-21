@@ -13,7 +13,7 @@
     // Links
     import { Router, Link } from "svelte-navigator";
 
-    import Logo from "./assets/logo.svg"
+    import Logo from "../img/logo.svg"
 
     const SwapTheme = () => ThemeMode.set($ThemeMode === "light" ? "dark" : "light")
 </script>
