@@ -1,6 +1,6 @@
 <script>
   import Header from "../components/Header.svelte";
-  import Imagem1 from "../assets/image 1.png";
+  import Imagem1 from "../img/img1.png";
 </script>
 
 <Header></Header>
